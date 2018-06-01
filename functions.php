@@ -264,3 +264,8 @@ function andalib_comments_gravatar( $args ) {
 	return $args;
 
 }
+
+/**
+ * SVG icons functions and filters.
+ */
+require get_stylesheet_directory() . '/lib/icon-functions.php';
