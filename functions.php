@@ -50,6 +50,9 @@ add_action( 'wp_enqueue_scripts', 'andalib_enqueue_scripts_styles' );
  */
 function andalib_enqueue_scripts_styles() {
 
+	// Replace style.css with style-rtl.css for RTL languages.
+	wp_style_add_data( 'andalib', 'rtl', 'replace' );
+
 	wp_enqueue_style( 'dashicons' );
 
 	$suffix = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '' : '.min';
