@@ -15,7 +15,12 @@
     "stylelint-config-wordpress": "13.0.0"
   },
   "stylelint": {
-    "extends": "stylelint-config-wordpress"
+    "extends": "stylelint-config-wordpress",
+    "rules": {
+      "no-descending-specificity": null,
+      "no-duplicate-selectors": null,
+      "font-family-no-duplicate-names": null
+    }
   },
   "repository": {
     "type": "git",

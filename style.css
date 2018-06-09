@@ -74,7 +74,7 @@
 
 
 /* HTML5 Reset
----------------------------------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 /* Baseline Normalize
 --------------------------------------------- */
@@ -476,7 +476,7 @@ html {
 
 
 /* Defaults
----------------------------------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 /* Typographical Elements
 --------------------------------------------- */
@@ -890,7 +890,7 @@ th:first-child {
 .screen-reader-shortcut:focus,
 .widget_search input[type="submit"]:focus {
 	background: #fff;
-	box-shadow: 0 0 2px 2px rgba(0,0,0,.6);
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
 	clip: auto !important;
 	color: #333;
 	display: block;
@@ -909,25 +909,37 @@ th:first-child {
 
 
 /* Structure and Layout
----------------------------------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 /* Site Container
 --------------------------------------------- */
 
 .site-container {
 	-webkit-animation: fadein 1s;
-	animation:         fadein 1s;
+	animation: fadein 1s;
 	word-wrap: break-word;
 }
 
 @keyframes fadein {
-	from { opacity: 0; }
-	to   { opacity: 1; }
+
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
 }
 
 @-webkit-keyframes fadein {
-	from { opacity: 0; }
-	to   { opacity: 1; }
+
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
 }
 
 /* Site Inner
@@ -941,7 +953,7 @@ th:first-child {
 
 
 /* Common Classes
----------------------------------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 /* Avatar
 --------------------------------------------- */
@@ -974,7 +986,7 @@ th:first-child {
 }
 
 .after-entry {
-	box-shadow: 0 0 20px rgba(0,0,0,0.05);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
 	padding: 20px 30px;
 }
 
@@ -1134,7 +1146,7 @@ img.alignright,
 
 
 /* Widgets
----------------------------------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 .widget {
 	margin-bottom: 40px;
@@ -1201,9 +1213,8 @@ img.alignright,
 }
 
 
-
 /* Skip Links
----------------------------------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 .genesis-skip-link {
 	margin: 0;
@@ -1228,11 +1239,11 @@ img.alignright,
 
 
 /* Site Header
----------------------------------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 .site-header {
 	background-color: #fff;
-	box-shadow: 0 0 20px rgba(0,0,0,0.05);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
 	padding: 0 30px;
 }
 
@@ -1279,7 +1290,7 @@ img.alignright,
 
 
 /* Site Navigation
----------------------------------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 .genesis-nav-menu {
 	clear: both;
@@ -1426,16 +1437,16 @@ img.alignright,
 .sub-menu-toggle::before {
 	display: inline-block;
 	text-rendering: auto;
-	-webkit-transform: rotate( 0 );
-	-ms-transform:     rotate( 0 );
-	transform:         rotate( 0 );
-	transition: transform .25s ease-in-out;
+	-webkit-transform: rotate(0);
+	-ms-transform: rotate(0);
+	transform: rotate(0);
+	transition: transform 0.25s ease-in-out;
 }
 
 .sub-menu-toggle.activated::before {
-	-webkit-transform: rotate( 180deg );
-	-ms-transform:     rotate( 180deg );
-	transform:         rotate( 180deg );
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
 }
 
 /* Header Menu
@@ -1469,7 +1480,7 @@ img.alignright,
 
 
 /* Content Area
----------------------------------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 /* Entry Content
 --------------------------------------------- */
@@ -1596,9 +1607,6 @@ p.entry-meta {
 	padding-left: 0;
 }
 
-.comment-list .bypostauthor {
-}
-
 .comment-header {
 	margin-bottom: 30px;
 }
@@ -1632,7 +1640,7 @@ p.entry-meta {
 
 
 /* Sidebar
----------------------------------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 .sidebar {
 	font-size: 16px;
@@ -1650,7 +1658,7 @@ p.entry-meta {
 
 
 /* Footer Widgets
----------------------------------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 .footer-widgets {
 	border-top: 1px solid #eee;
@@ -1672,14 +1680,14 @@ p.entry-meta {
 	padding-right: 30px;
 }
 
-.footer-widget-area:last-child ,
+.footer-widget-area:last-child,
 .footer-widgets .widget:last-child {
 	margin-bottom: 0;
 }
 
 
 /* Site Footer
----------------------------------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 .site-footer {
 	background-color: #fff;
@@ -1697,7 +1705,7 @@ p.entry-meta {
 
 
 /* Media Queries
----------------------------------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 @media only screen and (min-width: 960px) {
 
@@ -1751,7 +1759,7 @@ p.entry-meta {
 		opacity: 0;
 		padding-left: 0;
 		position: absolute;
-		transition: opacity .4s ease-in-out;
+		transition: opacity 0.4s ease-in-out;
 	}
 
 	.genesis-nav-menu .sub-menu a {
@@ -1938,7 +1946,7 @@ p.entry-meta {
 
 
 /* Print Styles
----------------------------------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 @media print {
 
