@@ -1060,7 +1060,9 @@ th:first-child {
 
 .entry-title a:focus,
 .entry-title a:hover {
-	color: #ffde01;
+	color: #333;
+	text-decoration: underline;
+	text-decoration-color: #ffde01;
 }
 
 .widget-title {
@@ -1244,8 +1246,9 @@ img.alignright,
 .site-footer a {
 	color: #777;
 	font-size: 10px;
-	text-decoration: none;
-	border-bottom: 4px solid #ffde01;
+	text-decoration: underline;
+	text-decoration-color: #ffde01;
+	text-decoration-style: double;
 }
 
 /* Site Header
@@ -1716,7 +1719,8 @@ p.entry-meta {
 
 /* Media Queries
 ----------------------------------------------------------------------------- */
-@media all and (max-device-width: 480px) {
+
+@media only screen and (min-width: 960px) {
 
 	/* Smartphones Style
 	--------------------------------------------- */
@@ -1734,10 +1738,6 @@ p.entry-meta {
 	p {
 		margin: 10px;
 	}
-
-}
-
-@media only screen and (min-width: 960px) {
 
 	/* Site Header
 	--------------------------------------------- */
