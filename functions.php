@@ -54,6 +54,13 @@ add_action( 'wp_enqueue_scripts', 'andalib_enqueue_scripts_styles' );
  */
 function andalib_enqueue_scripts_styles() {
 
+	wp_enqueue_style(
+		'andalib-fonts',
+		'//fontlibrary.org/face/droid-arabic-kufi',
+		array(),
+		CHILD_THEME_VERSION
+	);
+
 	// Replace style.css with style-rtl.css for RTL languages.
 	wp_style_add_data( 'andalib', 'rtl', 'replace' );
 

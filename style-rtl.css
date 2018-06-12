@@ -496,7 +496,7 @@ body > div {
 body {
 	background-color: #fff;
 	color: #333;
-	font-family: Tahoma,Arial,sans-serif;
+	font-family: 'DroidArabicKufiRegular',Tahoma,Arial,sans-serif;
 	font-size: 18px;
 	font-size: 1.8rem;
 	font-weight: 400;
