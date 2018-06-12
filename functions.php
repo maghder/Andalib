@@ -10,6 +10,10 @@
  * @link    http://3andalib.com/
  */
 
+// Add Arabic Support.
+define( 'GENESIS_LANGUAGES_DIR', get_stylesheet_directory() . '/lib/languages' );
+define( 'GENESIS_LANGUAGES_URL', get_stylesheet_directory() . '/lib/languages' );
+
 // Starts the engine.
 require_once get_template_directory() . '/lib/init.php';
 
