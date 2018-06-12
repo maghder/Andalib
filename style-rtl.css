@@ -1060,7 +1060,9 @@ th:first-child {
 
 .entry-title a:focus,
 .entry-title a:hover {
-	color: #0073e5;
+	color: #333;
+	text-decoration: underline;
+	text-decoration-color: #ffde01;
 }
 
 .widget-title {
@@ -1237,12 +1239,23 @@ img.alignright,
 	outline: #ccc solid 1px;
 }
 
+/* Yellow underline Links
+----------------------------------------------------------------------------- */
+.entry-meta a,
+.wp-caption-text a,
+.site-footer a {
+	color: #777;
+	font-size: 10px;
+	text-decoration: underline;
+	text-decoration-color: #ffde01;
+	text-decoration-style: double;
+}
 
 /* Site Header
 ----------------------------------------------------------------------------- */
 
 .site-header {
-	background-color: #fff;
+	background-color: #32373c;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
 	padding: 0 30px;
 }
@@ -1251,15 +1264,15 @@ img.alignright,
 --------------------------------------------- */
 
 .title-area {
-	float: right;
 	padding-bottom: 25px;
 	padding-top: 25px;
 }
 
 .wp-custom-logo .title-area {
-	max-width: 350px;
+	width: 124px;
 	padding-bottom: 5px;
 	padding-top: 5px;
+	margin: 0 auto;
 }
 
 .site-title {
@@ -1708,6 +1721,23 @@ p.entry-meta {
 ----------------------------------------------------------------------------- */
 
 @media only screen and (min-width: 960px) {
+
+	/* Smartphones Style
+	--------------------------------------------- */
+
+	.site-inner {
+		padding: 10px 0;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p {
+		margin: 10px;
+	}
 
 	/* Site Header
 	--------------------------------------------- */
