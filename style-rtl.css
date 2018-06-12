@@ -1060,7 +1060,7 @@ th:first-child {
 
 .entry-title a:focus,
 .entry-title a:hover {
-	color: #0073e5;
+	color: #ffde01;
 }
 
 .widget-title {
@@ -1237,7 +1237,7 @@ img.alignright,
 	outline: #ccc solid 1px;
 }
 
-/* Entry Author
+/* Yellow underline Links
 ----------------------------------------------------------------------------- */
 .entry-meta a,
 .wp-caption-text a,
@@ -1716,6 +1716,26 @@ p.entry-meta {
 
 /* Media Queries
 ----------------------------------------------------------------------------- */
+@media all and (max-device-width: 480px) {
+
+	/* Smartphones Style
+	--------------------------------------------- */
+
+	.site-inner {
+		padding: 10px 0;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p {
+		margin: 10px;
+	}
+
+}
 
 @media only screen and (min-width: 960px) {
 

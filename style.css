@@ -1716,6 +1716,26 @@ p.entry-meta {
 
 /* Media Queries
 ----------------------------------------------------------------------------- */
+@media all and (max-device-width: 480px) {
+
+	/* Smartphones Style
+	--------------------------------------------- */
+
+	.site-inner {
+		padding: 10px 0;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p {
+		margin: 10px;
+	}
+
+}
 
 @media only screen and (min-width: 960px) {
 
